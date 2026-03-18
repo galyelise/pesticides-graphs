@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Synthèse mensuelle</title>
+
+<style>
+body{
+font-family:Arial;
+margin:40px;
+background:#f5f5f5;
+}
+
+h1{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section{
+margin-bottom:60px;
+}
+
+iframe{
+width:100%;
+height:600px;
+border:none;
+background:white;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Synthèse mensuelle</h1>
+
+<div class="section">
+<h2>Station ROSETTE</h2>
+<iframe src="https://galyelise.github.io/pesticides-graphs/graphique_04166800_ROSETTE.html"></iframe>
+</div>
+
+<div class="section">
+<h2>Station ROSAIE</h2>
+<iframe src="https://galyelise.github.io/pesticides-graphs/graphique_04166875_ROSAIE.html"></iframe>
+</div>
+
+<div class="section">
+<h2>Station AELB BOIS LEARD</h2>
+<iframe src="https://galyelise.github.io/pesticides-graphs/graphique_04167000_AELB_BOIS_LEARD.html"></iframe>
+</div>
+
+</body>
+</html>
