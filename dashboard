@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Dashboard pesticides</title>
 </head>
 
 <body>
 
-<h2>Graphique pesticides</h2>
+<h1>Analyse pesticides</h1>
+
+<h2>Graphique interactif</h2>
 
 <iframe
 src="https://galyelise.github.io/pesticides-graphs/graphique_04167000_AELB_BOIS_LEARD.html"
 width="100%"
-height="600">
+height="600"
+style="border:none;">
 </iframe>
 
 <h2>Dashboard Looker Studio</h2>
 
 <iframe
-src="https://lookerstudio.google.com/reporting/a477c9c5-76ee-42f2-99f7-1614d99e51d5/page/p_ib7f3huu1d"
+src="https://lookerstudio.google.com/embed/reporting/rT4UghDTzUs"
 width="100%"
-height="600">
+height="700"
+style="border:none;">
 </iframe>
 
 </body>
